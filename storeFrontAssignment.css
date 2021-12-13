@@ -1,0 +1,121 @@
+body{
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: url(images/background.jpeg);
+    padding: 0;
+    margin: 0;
+    background-size: 100%;
+}
+h1{
+    color:teal;
+    font-size: 50px;
+    margin: auto;
+    padding: 0;
+}
+h2{
+    color: black;
+    font-size: 20px;
+    margin: auto;
+    padding: 0%;
+}
+.contentWraooer {
+    margin: 0%;
+    max-width: 1200px;
+    padding: auto;
+}
+.left{
+    float: left
+}
+.right{
+    float: right;
+}
+header{
+    padding: auto;
+    margin: 0%;
+    font-size: 100px;
+    background-color:transparent; 
+}
+nav{
+    font-size: 20px;
+    padding-left:1500px;
+    margin:0px;
+    
+}
+nav ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin: 0%;
+}
+nav li a:hover {
+    color: turquoise;
+    background-color: violet;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: black;
+    padding: 0.3em 0.6em;
+}
+nav#utilityMenu{
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    background-color:grey;
+  
+}
+section#sidebar{
+    width: 238px;
+    float: right;
+    position: relative;
+    display: block;
+    background:lightsalmon;
+    font-style: italic;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding:1.7em 0.5em 2.0em 1.7em;
+    border-right:solid 5px;
+}
+section#main {
+    margin: 0 0 2.0em;
+    padding: 1.5em 0 2.0e, 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: tomato;
+}
+section div.panel{
+    float: right;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    border-radius: 0.6em;
+
+}
+footer{
+    background-color: transparent;
+    text-align: center;
+    padding: 1.5em 2.0em;
+    height: 25px;
+}
+footer ul#menuFooter{
+    display: inline-block;
+    list-style: none;
+    margin:0 0 0 0.6em;
+    padding: 0%;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+footer ul li::before{
+    content: "| ";
+    padding-right: 0.7em;
+}
+button{
+    color: lightpink;
+    display: inline-block;
+    text-transform: uppercase;
+}
